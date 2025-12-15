@@ -8,7 +8,7 @@ if (isNaN(A)) {
   process.exit(0);
 }
 for (let B = 0; B <= A ; B = B+2) {
-  console.log(B);
+  console.log(B.toString());
 }
 
 
