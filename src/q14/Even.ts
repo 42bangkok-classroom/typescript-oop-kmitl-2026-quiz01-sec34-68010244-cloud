@@ -9,8 +9,6 @@ if (Number.isNaN(n)) {
   process.exit(0);
 }
 
-for (let i = 0; i <= n; i++) {
-  if (i % 2 === 0) {
-    console.log(i);
-  }
-}
+for (let B = 0; B <= n; B = B + 2) {
+  console.log(B);
+ }
