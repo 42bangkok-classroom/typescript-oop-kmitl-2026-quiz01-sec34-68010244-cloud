@@ -8,6 +8,9 @@ for (let i = 0; i < input.length; i++) {
   if (input[i] === "@") {
     console.log("Has @");
     process.exit(0);
+  } else {
+    console.log("No @");
+    process.exit(0);
   }
 }
-console.log("No @");
+
