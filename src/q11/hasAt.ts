@@ -10,3 +10,4 @@ for (let i = 0; i < input.length; i++) {
     process.exit(0);
   }
 }
+console.log("No @");
